@@ -1,0 +1,116 @@
+body{
+    background-color: rgba(163, 197, 236, 1);
+    margin: 0;
+    padding: 0;
+}
+
+.image{
+    position: relative;
+    width: 530px;
+}
+
+.image1{
+    display:block;
+    width:100%;
+}
+
+.overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0, 0.4);
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity:1;
+}
+
+.row{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 500px; 
+    grid-gap: 50px 70px;
+}
+
+
+img{
+    width: 530px;
+    height: 393px;
+    object-fit:cover;
+}
+
+.portrait{
+    object-position: 13% -100px;
+}
+
+.oOo{
+    object-position: 20% 30%;
+}
+
+.Miku{
+    object-position: 20% 25%;
+}
+
+.Strawberry{
+    object-position: 20% 50%;
+}
+
+.vampire{
+    object-position: 20% 20%;
+    margin-bottom: 40px;
+}
+.active{
+    color: rgb(87, 87, 87);
+    text-decoration: underline;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+ul{
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(142, 178, 216);
+}
+
+li{
+    float: right;
+}
+
+li a {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+    padding: 10px;
+ }
+
+ #left{
+    float:left;
+
+}
+
+.home{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.copyright{
+    display:flex;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 18px;
+    margin-top:-20px;
+    justify-content: center;
+}

@@ -1,0 +1,139 @@
+body{
+    background-color: rgba(207, 223, 242, 1);
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    color: aliceblue;
+}
+
+ul{
+    padding: 0px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(175, 200, 231, 1);
+}
+
+li{
+    float: right;
+}
+
+li a {
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 20px;
+    padding: 10px;
+ }
+
+ #left{
+    float:left;
+
+}
+
+.home{
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    justify-content: center;
+}
+
+.text{
+    margin-top: -20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.copyright{
+    display:flex;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 18px;
+    margin-top:10px;
+    justify-content: center;
+}
+
+.img1{
+    margin-top: -20px;
+    margin-bottom: 70px;
+    width: 1080px;
+    height: 943px;
+    object-fit:contain;
+}
+
+.img2{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    width: 1080px;
+    height: 943px;
+    object-fit:contain;
+}
+
+.img3{
+    margin-top: 0px;
+    padding: 10px;
+    width: 303;
+    height: 303px;
+    object-fit: contain;
+}
+
+.img4{
+    margin-top: 0px;
+    padding: 10px;
+    width: 303;
+    height: 303px;
+    object-fit: contain;
+}
+
+.body{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+
+button{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    float:right;
+    padding-left: 7px;
+    padding-top: -15px;
+    margin-top: -75px;
+    margin-right: 30px;
+    border: 0;
+    background-color: rgb(154, 179, 210);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+button:hover{
+    background-color: rgb(126, 141, 183);
+}
